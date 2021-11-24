@@ -91,3 +91,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+dependency_overrides:
+  source_gen:
+    git:
+      url: https://github.com/simolus3/source_gen.git
+      ref: improve-missing-part-handling
+      path: source_gen

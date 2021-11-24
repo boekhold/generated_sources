@@ -362,10 +362,12 @@ packages:
   source_gen:
     dependency: "direct dev"
     description:
-      name: source_gen
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.1"
+      path: source_gen
+      ref: improve-missing-part-handling
+      resolved-ref: "1a1abcfd5e9e61858e0cb5864077ec9cd57dd45b"
+      url: "https://github.com/simolus3/source_gen.git"
+    source: git
+    version: "1.2.0-dev"
   source_helper:
     dependency: transitive
     description:
